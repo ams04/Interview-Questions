@@ -20,11 +20,6 @@ public class ThreeSumShorterMethod {
 				11, 10 };
 
 		List<List<Integer>> ab = threesum(nums);
-		// if (ab.size() != 0)
-		// ab.stream().forEach(abc -> System.out.println(abc));
-		// else
-		// System.out.println("No match found!!");
-		// System.out.println(ab.size());
 
 	}
 
@@ -48,7 +43,6 @@ public class ThreeSumShorterMethod {
 		}
 
 		list.forEach(a -> Collections.sort(a));
-		// list.forEach(a->System.out.println(a));
 
 		Set<List<Integer>> set = new LinkedHashSet<>(list);
 		set.forEach(a -> System.out.println(a));
