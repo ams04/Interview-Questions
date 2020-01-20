@@ -6,7 +6,7 @@ import java.util.Map;
 public class CompressionDecompression {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Replace the comment for testing
 
 		String compressed = compress("aaabbbbbbbbbb22222222222");
 		
