@@ -4,6 +4,7 @@ public class Integerpalindrome {
 
 	public static void main(String[] args) {
 		
+/* Just adding comments in master for fun */
 		boolean isPalindrome = checkPalindrome(-2147447412);
 		System.out.println(isPalindrome);
 
